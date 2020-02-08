@@ -31,7 +31,9 @@ $ npm start (To start the front end)
 
 Setup Blockchain Development Environment
 
-$ npm install truffle ganache-cli -g $ ganache-cli -d $ truffle migrate --reset
+$ npm install truffle ganache-cli -g 
+$ ganache-cli 
+$ truffle migrate --reset
 
 If all goes good, the contracts will compile and deploy successfully.
 
