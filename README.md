@@ -14,6 +14,12 @@ The following project is created as part of ConsenSys Developer Bootcamp project
 The code is deployed in Kovan Network. Addressed can be found in (deployed_address.md). 
 
 Get it up and running locally! Setting up the code base $ git clone https://github.com/sushilbal/token-exchange 
+IMP : Below Versions User
+Truffle v5.1.11 (core: 5.1.11)
+Solidity v0.5.16 (solc-js)
+Node v10.13.0
+Web3.js v1.2.1
+
 $ cd token-exchange 
 $ npm install
 //Start ganache-gui
