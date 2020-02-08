@@ -37,14 +37,17 @@ Get it up and running locally! Setting up the code base $ git clone https://gith
 - Node v10.13.0
 - Web3.js v1.2.1
 
+##### Clone the project.
 - $ cd token-exchange 
 - $ npm install
-//Start ganache-gui
 - $ truffle develop
 - $ test
 - $migrate --network development --reset
+##### Connect your metamask with the local node and import the accounts.
 - $ cd client
+- $ npm install
 - $ npm start (To start the front end)
+This will start http://localhost:3000 Unlock the Metamask by entering your password and select the localhost:8545 network and Refresh the page.
 
 Setup Blockchain Development Environment
 
@@ -53,13 +56,3 @@ Setup Blockchain Development Environment
 - $ truffle migrate --reset
 
 If all goes good, the contracts will compile and deploy successfully.
-
-Running Truffle Tests
-
-- $ truffle test
-
-Starting Development Server and UI
-
-- $ npm start
-
-This will start http://localhost:3000 Unlock the Metamask by entering your password and select the localhost:8545 network and Refresh the page.
